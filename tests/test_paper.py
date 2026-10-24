@@ -55,7 +55,7 @@ def test_closed_form_credible_code(xi, L):
 # --------------------------------------------------------------- Fig. 4
 def test_figure4_karate_club():
     cfg = load_preset("figure4_karate_club")
-    expected = {  # (min x(T), max x(T)) as printed by notebooks/paper_figures.ipynb
+    expected = {  # (min x(T), max x(T)) as printed by simulator/paper_figures.ipynb
         "linear": (0.134, 0.144),
         "saturated": (1.000, 1.000),
         "quantized": (-0.534, 0.535),

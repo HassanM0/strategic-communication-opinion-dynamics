@@ -10,8 +10,6 @@ The repository contains `strategic_coda`, a Python simulator of opinion dynamics
 private opinions and communicate through public signals. It reproduces the simulation figures of the
 paper, and an interactive notebook lets you explore the model beyond them.
 
-This repository is a frozen snapshot that matches the arXiv version of the paper.
-
 ## Installation
 
 Python 3.10 or newer is required. From the repository folder:
@@ -30,7 +28,7 @@ LaTeX the notebook falls back to Matplotlib's built-in math rendering.
 
 ## Exploring the model
 
-[`notebooks/interactive_explorer.ipynb`](notebooks/interactive_explorer.ipynb) opens an interactive
+[`simulator/interactive_explorer.ipynb`](simulator/interactive_explorer.ipynb) opens an interactive
 interface (ipywidgets). In it you can:
 
 - **Change the model:** pick the network, the inertia, the number of bins $L$ and the signaling map,

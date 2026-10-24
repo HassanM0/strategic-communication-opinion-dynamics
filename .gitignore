@@ -23,8 +23,8 @@ paper/*.synctex.gz
 paper/*.toc
 
 # Files exported by the explorer notebook
-notebooks/run_history.csv
-notebooks/run_record.json
+simulator/run_history.csv
+simulator/run_record.json
 
 # OS / editor
 .DS_Store
