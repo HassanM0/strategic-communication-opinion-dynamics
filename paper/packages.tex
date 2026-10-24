@@ -1,0 +1,68 @@
+
+\usepackage{amssymb,bm}
+\usepackage{mathtools}
+\usepackage{amsmath} 
+\let\proof\relax
+\let\endproof\relax
+\usepackage{amsthm}
+\usepackage[noadjust]{cite}
+
+\makeatletter
+\@ifundefined{NAT@parse}{}{\let\NAT@parse\undefined}
+\makeatother
+
+\providecommand{\citep}[1]{\cite{#1}}
+\providecommand{\citet}[1]{\cite{#1}}
+\providecommand{\citealt}[1]{\cite{#1}}
+\providecommand{\citealp}[1]{\cite{#1}}
+\providecommand{\citeauthor}[1]{\cite{#1}}
+\providecommand{\citeyear}[1]{\cite{#1}}
+
+\usepackage{tabularx}
+\let\labelindent\relax
+\usepackage{enumitem}
+
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18} 
+\usepackage{tkz-graph}
+
+\usetikzlibrary{
+  arrows,
+  arrows.meta,
+  positioning,
+  shapes,
+  shapes.geometric,
+  calc,
+  fit,
+  backgrounds,
+  decorations.pathreplacing
+}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{definition}{Definition}
+\newtheorem{proposition}{Proposition}
+\newtheorem{problem}{Problem}
+\newtheorem{lemma}{Lemma}
+\newtheorem{corollary}{Corollary}
+\newtheorem{assumption}{Assumption}
+\newtheorem{standassumption}[assumption]{Standing Assumption}
+\newtheorem{remark}{Remark}
+\newtheorem{condition}{Condition}
+\newtheorem{example}{Example}
+\newtheorem{conjecture}{Conjecture}
+\newtheorem{question}{Research Question}
+
+\usepackage[hidelinks]{hyperref}
+\usepackage[capitalize]{cleveref}
+\usepackage{tabularx}
+\usepackage{multirow}
+\usepackage{booktabs}
+\usepackage[english]{babel}
+\frenchspacing
+
+\usepackage{subcaption}
+\captionsetup{font=small, labelfont=bf}
+\captionsetup[sub]{font=small, labelfont=bf}
+
+\usepackage{graphicx}   

@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "strategic-coda"
+version = "1.0.0"
+description = "Simulator for networked opinion dynamics with strategic public communication (strategic CODA), companion code of arXiv:2607.16036"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Hassan Munif" }]
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.26",
+  "scipy>=1.11",
+  "networkx>=3.2",
+  "matplotlib>=3.8",
+]
+
+[project.optional-dependencies]
+fast = ["numba>=0.59"]                                   # JIT-compiled simulation kernels
+ui = ["ipywidgets>=8", "plotly>=5", "jupyterlab>=4"]     # interactive explorer notebook
+dev = ["pytest>=7", "nbclient>=0.9", "nbformat>=5.9", "ipykernel>=6"]
+
+[project.urls]
+Paper = "https://arxiv.org/abs/2607.16036"
+
+[tool.setuptools]
+packages = ["strategic_coda"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

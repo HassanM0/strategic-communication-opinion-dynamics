@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "strategic-coda: simulator for networked opinion dynamics with strategic communication"
+version: 1.0.0
+date-released: 2026-10-24
+license: MIT
+authors:
+  - family-names: Munif
+    given-names: Hassan
+    orcid: "https://orcid.org/0009-0009-8838-243X"
+preferred-citation:
+  type: article
+  title: "Network-Induced Strategic Communication in Opinion Dynamics"
+  authors:
+    - family-names: Munif
+      given-names: Hassan
+      orcid: "https://orcid.org/0009-0009-8838-243X"
+    - family-names: Couthures
+      given-names: Anthony
+      orcid: "https://orcid.org/0009-0008-6102-9356"
+    - family-names: Varma
+      given-names: Vineeth S.
+      orcid: "https://orcid.org/0000-0001-8762-2790"
+    - family-names: Lasaulce
+      given-names: Samson
+      orcid: "https://orcid.org/0000-0001-9837-9538"
+    - family-names: Başar
+      given-names: Tamer
+      orcid: "https://orcid.org/0000-0003-4406-7875"
+  year: 2026
+  month: 7
+  journal: "arXiv preprint"
+  identifiers:
+    - type: other
+      value: "arXiv:2607.16036"
+      description: arXiv identifier
+  url: "https://arxiv.org/abs/2607.16036"

@@ -1,0 +1,11 @@
+# Exact environment used to produce the figures of arXiv:2607.16036 (Python 3.12.6).
+# Install with:  pip install -r requirements.txt  &&  pip install -e .
+numpy==2.4.2
+scipy==1.17.0
+networkx==3.6.1
+matplotlib==3.10.8
+numba==0.64.0
+ipywidgets==8.1.8
+plotly==6.6.0
+jupyterlab==4.5.5
+ipykernel==7.1.0
